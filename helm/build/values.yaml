@@ -1,0 +1,15 @@
+app:
+  name: joshix2-poi-gateway-app
+  namespace: joshix2
+  cluster: .apps.j0i9yf30.eastus2.aroapp.io
+
+git:
+  branch: main
+  repo: https://github.com/rhdh-atl/joshix2-gateway
+  org: rhdh-atl
+  name: joshix2-gateway
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: joshix2/poi-gateway-app
+  tag: latest
